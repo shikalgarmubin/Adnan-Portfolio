@@ -1,10 +1,2 @@
 @import "tailwindcss";
 
-body {
-  background: #3c2edb;
-  background: radial-gradient(
-    circle,
-    rgb(92, 78, 255) 30%,
-    rgba(84, 190, 255, 1) 80%
-  );
-}
