@@ -1,5 +1,24 @@
 import React, { useState } from "react";
-import { FaBarsProgress } from "react-icons/fa6";
+import {
+  FaAccessibleIcon,
+  FaAlignJustify,
+  FaAlignRight,
+  FaArrowLeft,
+} from "react-icons/fa";
+import {
+  Fa0,
+  Fa42Group,
+  FaAlignCenter,
+  FaAlignLeft,
+  FaAngellist,
+  FaAustralSign,
+  FaBars,
+  FaBarsProgress,
+} from "react-icons/fa6";
+import {
+  MdFormatAlignJustify,
+  MdOutlineFormatAlignJustify,
+} from "react-icons/md";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -12,15 +31,13 @@ const Navbar = () => {
       title: "About",
       link: "/about",
     },
-    {
-      title: "Skills",
-      link: "/skill",
-    },
-  ];  //  
+  ];
   return (
-    <div className="w-full lg:w-[100%] h-18 bg-gradient-to-r from-[#73BCDD] to-[#8CCCE7] flex items-center justify-between gap-4 px-12 relative ">
+    <div className="fixed top-0 z-50 w-full lg:w-[100%] h-18 bg-gradient-to-r from-[#73BCDD] to-[#8CCCE7] flex items-center justify-between gap-4 px-10">
       <div>
-        <Link to={"/"} className="text-2xl font-semibold text-zinc-800">Adnan Maniyar</Link>
+        <Link to={"/"} className="text-2xl font-semibold text-zinc-800">
+          Adnan Maniyar
+        </Link>
       </div>
       <div className="flex items-center justify-center gap-5">
         {/* Desktop Links */}
@@ -35,8 +52,11 @@ const Navbar = () => {
         ))}
         {/* Hamburger Icon */}
         <div className="lg:hidden block">
-          <button onClick={() => setShow(!show)} className="transition-all duration-300">
-            <FaBarsProgress className="w-[25px] h-[25px] transition-all duration-300" />
+          <button
+            onClick={() => setShow(!show)}
+            className="transition-all duration-300"
+          >
+            <FaBars className="w-[20px] h-[20px] transition-all duration-300" />
           </button>
         </div>
       </div>

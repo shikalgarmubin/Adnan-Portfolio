@@ -65,7 +65,7 @@ const Card = () => {
         {cards.map((card, idx) => (
           <div
             key={idx}
-            className="w-[70%] lg:w-90 bg-zinc-800 rounded-xl shadow-lg p-5 flex flex-col gap-3 hover:scale-105 transition-transform"
+            className="w-[80%] lg:w-110 bg-zinc-800 rounded-xl shadow-lg p-5 py-10 flex flex-col gap-8 hover:scale-105 transition-transform"
           >
             <div className="flex flex-col items-center gap-2 ">
               {card.icon}
@@ -73,9 +73,9 @@ const Card = () => {
             </div>
             <div className="text-zinc-300 text-sm">
               <span className="font-bold text-cyan-400">Challenge:</span>
-              <p className="mb-2">{card.challenge}</p>
+              <p className="mb-5">{card.challenge}</p>
               <span className="font-bold text-cyan-400">Solution:</span>
-              <ul className="list-disc ml-5 mb-2">
+              <ul className="list-disc ml-5 mb-5">
                 {card.solution.map((s, i) => (
                   <li key={i}>{s}</li>
                 ))}
