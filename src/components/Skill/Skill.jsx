@@ -14,12 +14,6 @@ const Skill = () => {
               className="rotate-45 w-4"
             />
             Apex
-            <img
-              src="/icons/apex-icon.png"
-              type="icon"
-              alt=""
-              className="w-5"
-            />
           </span>
           <span className="flex gap-2 mb-1.5 items-center text-base md:text-xl text-white font-bold hover:scale-105 transition-transform bg-cyan-700 px-6 py-4 rounded-lg">
             <img
@@ -29,12 +23,6 @@ const Skill = () => {
               className="rotate-45 w-4"
             />
             LWC
-            <img
-              src="/icons/lwcc-icon.png"
-              type="icon"
-              alt=""
-              className="w-5"
-            />
           </span>
           <span className="flex gap-2 mb-1.5 items-center text-base md:text-xl text-white font-bold hover:scale-105 transition-transform bg-cyan-700 px-6 py-4 rounded-lg">
             <img
@@ -44,12 +32,6 @@ const Skill = () => {
               className="rotate-45 w-4"
             />
             SOQL & SOSL
-            <img
-              src="/icons/soql-icon.png"
-              type="icon"
-              alt=""
-              className="w-5"
-            />
           </span>
           <span className="flex gap-2 mb-1.5 items-center text-base md:text-xl text-white font-bold hover:scale-105 transition-transform bg-cyan-700 px-6 py-4 rounded-lg">
             <img
@@ -59,12 +41,6 @@ const Skill = () => {
               className="rotate-45 w-4"
             />
             Salesforce APIs (REST, SOAP, Bulk)
-            <img
-              src="/icons/visualforce-icon.webp"
-              type="icon"
-              alt=""
-              className="w-5"
-            />
           </span>
           <span className="flex gap-2 mb-1.5 items-center text-base md:text-xl text-white font-bold hover:scale-105 transition-transform bg-cyan-700 px-6 py-4 rounded-lg">
             <img
@@ -74,12 +50,6 @@ const Skill = () => {
               className="rotate-45 w-4"
             />
             Salesforce DX
-            <img
-              src="/icons/salesforce-dx.png"
-              type="icon"
-              alt=""
-              className="w-5"
-            />
           </span>
           <span className="flex gap-2 mb-1.5 items-center text-base md:text-xl text-white font-bold hover:scale-105 transition-transform bg-cyan-700 px-6 py-4 rounded-lg">
             <img
@@ -89,12 +59,6 @@ const Skill = () => {
               className="rotate-45 w-4"
             />
             Visualforce
-            <img
-              src="/icons/visualforce-icon.webp"
-              type="icon"
-              alt=""
-              className="w-5"
-            />
           </span>
           <span className="flex gap-2 mb-1.5 items-center text-base md:text-xl text-white font-bold hover:scale-105 transition-transform bg-cyan-700 px-6 py-4 rounded-lg">
             <img
@@ -104,20 +68,13 @@ const Skill = () => {
               className="rotate-45 w-4"
             />
             Wordpress
-            <img
-              src="/icons/wordpress-icon.svg"
-              type="icon/svg"
-              alt=""
-              className="w-5"
-            />
           </span>
         </div>
       </div>
 
       <div
         id="certificate"
-        className="w-full bg-gradient-to-r from-[#73BCDD] to-[#8CCCE7] flex flex-col items-center py-12 gap-4 relative "
-      >
+        className="w-full bg-gradient-to-r from-[#73BCDD] to-[#8CCCE7] flex flex-col items-center py-12 gap-4 relative">
         <h1 className="text-2xl font-semibold text-center py-2 text-black">
           My Certifications
         </h1>
