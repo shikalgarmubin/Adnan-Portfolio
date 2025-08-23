@@ -114,37 +114,44 @@ const Skill = () => {
         </div>
       </div>
 
-      <div id="certificate" className="w-full bg-gradient-to-r from-[#73BCDD] to-[#8CCCE7] flex flex-col items-center py-12 gap-4 relative ">
+      <div
+        id="certificate"
+        className="w-full bg-gradient-to-r from-[#73BCDD] to-[#8CCCE7] flex flex-col items-center py-12 gap-4 relative "
+      >
         <h1 className="text-2xl font-semibold text-center py-2 text-black">
           My Certifications
         </h1>
 
         <div className="md:flex gap-10">
-          <div className="flex w-80 md:w-100 shadow-md items-center gap-4 mb-5 bg-gradient-to-r from-[#d4f2ff] to-[#299ed0] p-4">
+          <div className="flex rounded-md w-80 md:w-100 shadow-md items-center gap-4 mb-5 bg-gradient-to-r from-[#d4f2ff] to-[#299ed0] p-4">
             <img
               src="/certificate-badge-admin.png"
               className="w-25"
               alt="Salesforce admin badge"
             />
-            <h1 className="text-lg md:text-xl font-mono font-bold">Salesforce Certified Admin</h1>
+            <h1 className="text-lg md:text-xl font-mono font-bold">
+              Salesforce Certified Admin
+            </h1>
           </div>
-          <div className="flex w-80 md:w-100 shadow-md items-center gap-4 mb-5 bg-gradient-to-r from-[#d4f2ff] to-[#299ed0] p-4">
+          <div className="flex rounded-md w-80 md:w-100 shadow-md items-center gap-4 mb-5 bg-gradient-to-r from-[#d4f2ff] to-[#299ed0] p-4">
             <img
               src="/certificate-Platform-Developer-I.png"
               className="w-25"
               alt="Salesforce developer badge"
             />
-            <h1 className="text-lg md:text-xl font-mono font-bold">Salesforce Platform Developer - I</h1>
+            <h1 className="text-lg md:text-xl font-mono font-bold">
+              Salesforce Platform Developer - I
+            </h1>
           </div>
         </div>
       </div>
 
-      <div className="w-full bg-gradient-to-r from-[#73BCDD] to-[#8CCCE7] flex flex-col items-center  py-12 gap-4">
+      <div className="w-full bg-gradient-to-r from-[#73BCDD] to-[#8CCCE7] flex flex-col items-center  pb-12 gap-4">
         <h1 className="py-3 text-2xl font-semibold ">Work Experience</h1>
 
-        <div className="bg-cyan-200/45 flex w-[80%] p-3 rounded-lg shadow-lg">
+        <div className="bg-cyan-200/45 flex w-[80%] items-center p-3 rounded-md shadow-md">
           <div className="">
-            <img src="/setlerz_logo.jpeg" className="w-18 md:w-20" alt="logo" />
+            <img src="/setlerz_logo.jpeg" className="w-20 sm:w-20" alt="logo" />
           </div>
           <div className="flex flex-col ml-4 gap-1">
             <h1 className="font-semibold text-xl md:text-2xl">
@@ -161,9 +168,9 @@ const Skill = () => {
             </span>
           </div>
         </div>
-        <div className="bg-cyan-200/45 flex w-[80%] p-3 rounded-lg shadow-lg">
+        <div className="bg-cyan-200/45 flex w-[80%] items-center p-3 rounded-md shadow-md">
           <div className="">
-            <img src="/shamiit_logo.jpeg" className="sm:w-20 w-30" alt="logo" />
+            <img src="/shamiit_logo.jpeg" className="w-26 sm:w-20" alt="logo" />
           </div>
           <div className="flex flex-col ml-4 gap-1">
             <h1 className="font-semibold text-xl md:text-2xl">

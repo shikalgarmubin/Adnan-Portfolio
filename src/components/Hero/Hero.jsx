@@ -48,7 +48,7 @@ const Hero = () => {
             I'm Available for Freelance Projects
           </p>
           <a
-            href="https://drive.google.com/uc?export=download&id=1Gl7KFuYZ9MAI6qRuTcvGlQ5A_HvsV8jn"
+            href=""
             className="border-2 border-gray-700 px-3 py-2 md:px-4 rounded-2xl text-gray-800 items-center text-base lg:text-lg flex gap-2 md:gap-3"
           >
             <FaDownload /> Download Resume
@@ -58,7 +58,7 @@ const Hero = () => {
           {/* You can add more content here if needed */}
         </div>
         {/* Jumping Down Arrow for Scroll Down appeal */}
-        <div className="flex flex-col items-center">
+        <div className="md:hidden flex flex-col items-center">
           <span className="text-gray-700 text-base mb-2">Scroll Down</span>
           <svg
             className="animate-bounce w-4 h-4 text-zinc-700"
