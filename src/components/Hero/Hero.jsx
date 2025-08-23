@@ -48,7 +48,7 @@ const Hero = () => {
             I'm Available for Freelance Projects
           </p>
           <a
-            href=""
+            href="https://drive.google.com/file/d/1uDagBJ4N2SzbncrK7O3LPiXbmCKnf2sf/view?usp=drive_link"
             className="border-2 border-gray-700 px-3 py-2 md:px-4 rounded-2xl text-gray-800 items-center text-base lg:text-lg flex gap-2 md:gap-3"
           >
             <FaDownload /> Download Resume
